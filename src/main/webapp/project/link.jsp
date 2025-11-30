@@ -41,7 +41,7 @@
     <h2>1. 새 북마크 추가</h2>
     <div class="add-form">
         <form action="link" method="post">
-            <input type="hidden" name="actiㄴon" value="insert">
+            <input type="hidden" name="action" value="insert">
             <input type="text" placeholder="이름 (예: 구글)" name="name" required>
             <input type="text" placeholder="주소(URL)" name="url" required>
             <button type="submit">➕ 추가</button>
